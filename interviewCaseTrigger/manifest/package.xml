@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CaseHelper</members>
+		<members>CaseHelperTest</members>
+		<members>CaseTriggerHandler</members>
+		<members>CaseTriggerHandlerTest</members>
+		<members>ErrorLogger</members>
+		<members>ErrorLoggerTest</members>
+		<members>NonconformanceService</members>
+		<members>NonconformanceServiceTest</members>
+		<members>PermissionService</members>
+		<members>PermissionServiceTest</members>
+		<members>TestUtils</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Case_Admin_Permission</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>Case</members>
+		<members>SQX_Nonconformance__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>SQX_Nonconformance__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Case-Case Layout</members>
+		<members>SQX_Nonconformance__c-Nonconformance Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>Case_Admin</members>
+		<members>Nonconformance_And_ApexClasses_Access</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>CaseType</members>
+		<name>StandardValueSet</name>
+	</types>
+	<version>64.0</version>
+</Package>

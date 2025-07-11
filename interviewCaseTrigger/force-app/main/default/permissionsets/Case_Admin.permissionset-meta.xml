@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows Case Admin users to create Nonconformance records directly from Case creation and update events</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Case Admin</label>
+</PermissionSet>
